@@ -55,6 +55,8 @@ Disadvantages:
 - High pace of development: The environment constantly changes, and developers must regularly relearn the new ways of doing things
 - Poor documentation
 
+key points:
+- Jsx, creates Virtuald domr, can render react on server side , react is a view layer so can use with any frame works like angular.js
 
 #### What is the difference between a Presentational component and a Container component?
 Presentational components are concerned with how things look. They generally receive data and callbacks exclusively via props. These components rarely have their own state, but when they do it generally concerns UI state, as opposed to data state.
