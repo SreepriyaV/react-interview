@@ -38,11 +38,23 @@ Below is a list of common React interview questions.
 React creates a virtual DOM. When state changes in a component it firstly runs a "diffing" algorithm, which identifies what has changed in the virtual DOM. The second step is reconciliation, where it updates the DOM with the results of diff.
 
 #### What are the advantages of using React?
+https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-reactjs-and-react-native/
 - It is easy to know how a component is rendered, you just need to look at the render function.
 - JSX makes it easy to read the code of your components. It is also really easy to see the layout, or how components are plugged/combined with each other.
 - You can render React on the server-side. This enables improves SEO and performance.
 - It is easy to test.
 - You can use React with any framework (Backbone.js, Angular.js) as it is only a view layer.
+
+Important Advantages:
+- Virtual DOM in ReactJS makes user experience better and developer’s work faster
+- ReactJS permits reusing code components – significantly saving time
+- ReactJS allows for direct work with components and uses downward data binding to ensure that changes of child structures don’t affect their parents. That makes code stable.(One-direction data flow)
+- An open-source library: constantly developing and open to contributions
+
+Disadvantages:
+- High pace of development: The environment constantly changes, and developers must regularly relearn the new ways of doing things
+- Poor documentation
+
 
 #### What is the difference between a Presentational component and a Container component?
 Presentational components are concerned with how things look. They generally receive data and callbacks exclusively via props. These components rarely have their own state, but when they do it generally concerns UI state, as opposed to data state.
