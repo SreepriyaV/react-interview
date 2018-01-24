@@ -71,6 +71,7 @@ Container components are more concerned with how things work. These components p
 - When your component just receives props and renders them to the page, this is a 'stateless component', for which a pure function can be used. These are also called dumb components or presentational components.
 
 #### What is the difference between state and props?
+https://stackoverflow.com/questions/27991366/what-is-the-difference-between-state-and-props-in-react
 
 The state is a data structure that starts with a default value when a Component mounts. It may be mutated across time, mostly as a result of user events.
 
