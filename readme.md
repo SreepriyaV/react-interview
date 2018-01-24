@@ -93,6 +93,7 @@ ie if the components output is not going to change based on the state or prop th
 - `componentWillUnmount` - here you can cancel any outgoing network requests, or remove all event listeners associated with the component.
 
 #### Where in a React component should you make an AJAX request?
+https://daveceddia.com/ajax-requests-in-react/
 `componentDidMount` is where an AJAX request should be made in a React component. This method will be executed when the component “mounts” (is added to the DOM) for the first time. This method is only executed once during the component’s life. Importantly, you can’t guarantee the AJAX request will have resolved before the component mounts. If it doesn't, that would mean that you’d be trying to setState on an unmounted component, which would not work. Making your AJAX request in `componentDidMount` will guarantee that there’s a component to update.
 
 #### What are controlled components?
