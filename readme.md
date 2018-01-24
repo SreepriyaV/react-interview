@@ -61,6 +61,10 @@ key points:
 #### What is the difference between a Presentational component and a Container component?
 https://www.fullstackreact.com/p/using-presentational-and-container-components-with-redux/
 
+
+State: The heart of every React component is its “state”, an object that determines how that component renders & behaves. In other words, “state” is what allows you to create components that are dynamic and interactive
+
+
 Presentational components are concerned with how things look. They generally receive data and callbacks exclusively via props. These components rarely have their own state, but when they do it generally concerns UI state, as opposed to data state.
 
 Container components are more concerned with how things work. These components provide the data and behavior to presentational or other container components. They call Flux actions and provide these as callbacks to the presentational components. They are also often stateful as they serve as data sources. 
