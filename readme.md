@@ -89,6 +89,8 @@ Props (short for properties) are a Component's configuration. They are received 
 
 ie if the components output is not going to change based on the state or prop then thr re-render could be made false; by default it is true. Two ways to do this: i) use React.pureComponent ii) compare this.state and nexstate, this.props and next.props
 - `componentWillUpdate` - rarely used. It can be used instead of `componentWillReceiveProps` on a component that also has `shouldComponentUpdate` (but no access to previous props).
+is invoked immediately before rendering when new props or state are being received. Use this as an opportunity to perform preparation before an update occurs(re-render happening bcz of state change may be due to pros).
+cannot use this.setState and dispatch. 
 - `componentDidUpdate` - also commonly used to update the DOM in response to prop or state changes.
 - `componentWillUnmount` - here you can cancel any outgoing network requests, or remove all event listeners associated with the component.
 
