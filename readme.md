@@ -82,8 +82,9 @@ The state is a data structure that starts with a default value when a Component 
 Props (short for properties) are a Component's configuration. They are received from above and immutable as far as the Component receiving them is concerned. A Component cannot change its props, but it is responsible for putting together the props of its child Components. Props do not have to just be data - callback functions may be passed in as props.
 
 #### Name the different lifecycle methods.
-- `componentWillMount`- this is most commonly used for App configuration in your root component. 
-- `componentDidMount` - here you want to do all the setup you couldn’t do without a DOM, and start getting all the data you need. Also if you want to set up eventListeners etc. this lifecycle hook is a good place to do that.
+- `componentWillMount`- this is most commonly used for App configuration in your root component. invoked before mounting and rendering
+- `componentDidMount` - is invoked immediately after a component is mounted. 
+here you want to do all the setup you couldn’t do without a DOM, and start getting all the data you need. Also if you want to set up eventListeners etc. this lifecycle hook is a good place to do that.
 - `componentWillReceiveProps` - this lifecyclye acts on particular prop changes to trigger state transitions.
 - `shouldComponentUpdate` - if you’re worried about wasted renders `shouldComponentUpdate` is a great place to improve performance as it allows you to prevent a rerender if component receives new `prop`. shouldComponentUpdate should always return a boolean and based on what this is will determine if the component is rerendered or not.
 
