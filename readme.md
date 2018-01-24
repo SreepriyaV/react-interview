@@ -93,7 +93,11 @@ ie if the components output is not going to change based on the state or prop th
 is invoked immediately before rendering when new props or state are being received. Use this as an opportunity to perform preparation before an update occurs(re-render happening bcz of state change may be due to pros).
 cannot use this.setState and dispatch. 
 - `componentDidUpdate` - also commonly used to update the DOM in response to prop or state changes.
+is invoked immediately after updating occurs. This method is not called for the initial render.
+Use this as an opportunity to operate on the DOM when the component has been updated. This is also a good place to do network requests as long as you compare the current props to previous props (e.g. a network request may not be necessary if the props have not changed).
+
 - `componentWillUnmount` - here you can cancel any outgoing network requests, or remove all event listeners associated with the component.
+is invoked immediately before a component is unmounted and destroyed. Perform any necessary cleanup in this method, such as invalidating timers, canceling network requests, or cleaning up any subscriptions that were created in componentDidMount().
 
 #### Where in a React component should you make an AJAX request?
 https://daveceddia.com/ajax-requests-in-react/
