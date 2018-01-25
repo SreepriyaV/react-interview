@@ -140,14 +140,15 @@ Clarity: When almost everything is an arrow function, any regular function immed
 
 https://medium.com/@shopsifter/using-a-function-in-setstate-instead-of-an-object-1f5cfd6e55d1
 obj:
-submit(){
-  this.setState({showForm : !this.state.showForm});
-}
+submit(){ this.setState({showForm : !this.state.showForm});}
 
 More relaibale : callback function :
-submit(){
-   this.setState((prevState, props)=> ({showForm: !prevState.showForm}) );
-}
+submit(){ this.setState((prevState, props)=> ({showForm: !prevState.showForm}) );}
+
+
+The key word from that documentation is asynchronously. Updates to the DOM don’t happen immediately when this.setState is called. React batches updates so elements are re-rendered to the DOM efficiently.
+
+
 Because `this.props` and `this.state` may be updated asynchronously, you should not rely on their values for calculating the next state.
 
 #### What is the alternative of binding `this` in the constructor?
