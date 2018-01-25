@@ -137,6 +137,17 @@ Compactness: Arrow functions are easier to read and write.
 Clarity: When almost everything is an arrow function, any regular function immediately sticks out for defining the scope. A developer can always look up the next-higher function statement to see what the thisObject is.
 
 #### Why is it advised to pass a callback function to setState as opposed to an object?
+
+https://medium.com/@shopsifter/using-a-function-in-setstate-instead-of-an-object-1f5cfd6e55d1
+obj:
+submit(){
+  this.setState({showForm : !this.state.showForm});
+}
+
+More relaibale : callback function :
+submit(){
+   this.setState((prevState, props)=> ({showForm: !prevState.showForm}) );
+}
 Because `this.props` and `this.state` may be updated asynchronously, you should not rely on their values for calculating the next state.
 
 #### What is the alternative of binding `this` in the constructor?
