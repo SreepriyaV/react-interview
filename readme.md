@@ -171,6 +171,8 @@ A child class constructor cannot make use of `this` until `super()` has been cal
 
 JSX is a syntax extension to JavaScript and comes with the full power of JavaScript. JSX produces React "elements". You can embed any JavaScript expression in JSX by wrapping it in curly braces. After compilation, JSX expressions become regular JavaScript objects. This means that you can use JSX inside of if statements and for loops, assign it to variables, accept it as arguments, and return it from functions:
 
+ JSX is simply a description of what the DOM should look like.
+ 
 #### What is equivalent of the following using React.createElement?
 
 Question:
