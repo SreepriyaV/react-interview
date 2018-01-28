@@ -30,7 +30,7 @@ Below is a list of common React interview questions.
 - [What is redux thunk used for?](#what-is-redux-thunk-used-for)
 - [What is a pure function?](#what-is-a-pure-function)
 - [What do you like about React?](#what-do-you-like-about-react)
-- [What is synthetic Event?](#What is synthetic Event)
+- [What is synthetic Event?](#What-is-synthetic-Event)
 - [What don't you like about React?](#what-dont-you-like-about-react)
 - [Example projects](#example-projects)
 
