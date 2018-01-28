@@ -30,6 +30,7 @@ Below is a list of common React interview questions.
 - [What is redux thunk used for?](#what-is-redux-thunk-used-for)
 - [What is a pure function?](#what-is-a-pure-function)
 - [What do you like about React?](#what-do-you-like-about-react)
+- [What is synthetic Event?](#What is synthetic Event)
 - [What don't you like about React?](#what-dont-you-like-about-react)
 - [Example projects](#example-projects)
 
@@ -229,7 +230,12 @@ Redux thunk is middleware that allows you to write action creators that return a
 #### What is a pure function?
 A pure function is a function that doesn't depend on and doesn't modify the states of variables out of its scope. Essentially, this means that a pure function will always return the same result given same parameters.
 
+#### What is synthetic Event?
+The event handlers will be passed instances of SyntheticEvent(e), a cross-browser wrapper around the browser’s native event. It has the same interface as the browser’s native event, including stopPropagation() and preventDefault(), except the events work identically across all browsers.
 
+A synthetic event is just an object that looks like a normal browser event, but it takes care of some differences in how events work between different browers. It has most of the (useful) fields and methods that a normal browser event has, and (as mentioned by BTMPL) you can even access the 'real' browser event by looking at the nativeEvent field.
+
+onClick(e)={e.preventDefault()}
 #### What do you like about react?
 ..... 
 
