@@ -248,6 +248,9 @@ https://www.youtube.com/watch?v=9z7k3-Or7EA
 Practice: 
 https://scotch.io/tutorials/react-on-the-server-for-beginners-build-a-universal-react-and-node-app
 
+Read:
+https://loige.co/my-universal-javascript-web-applications-talk-at-codemotion-milan-2016-2/
+
 #### What do you like about react?
 ..... 
 
