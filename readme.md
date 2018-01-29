@@ -242,6 +242,10 @@ onClick(e)={e.preventDefault()}
 #### SEO & universal Javascript:
 https://www.youtube.com/watch?v=tqg3F-8jBec -seo
 https://medium.com/capital-one-developers/why-everyone-is-talking-about-isomorphic-universal-javascript-and-why-it-matters-38c07c87905 -universal jS
+
+#### Ismorphic/ Universal Javascript:
+https://www.youtube.com/watch?v=9z7k3-Or7EA
+
 #### What do you like about react?
 ..... 
 
