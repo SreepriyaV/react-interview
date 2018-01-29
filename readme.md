@@ -245,6 +245,8 @@ https://medium.com/capital-one-developers/why-everyone-is-talking-about-isomorph
 
 #### Ismorphic/ Universal Javascript:
 https://www.youtube.com/watch?v=9z7k3-Or7EA
+Practice: 
+https://scotch.io/tutorials/react-on-the-server-for-beginners-build-a-universal-react-and-node-app
 
 #### What do you like about react?
 ..... 
