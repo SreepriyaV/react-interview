@@ -239,8 +239,9 @@ A synthetic event is just an object that looks like a normal browser event, but 
 
 onClick(e)={e.preventDefault()}
 
-#### SEO :
-https://www.youtube.com/watch?v=tqg3F-8jBec
+#### SEO & universal Javascript:
+https://www.youtube.com/watch?v=tqg3F-8jBec -seo
+https://medium.com/capital-one-developers/why-everyone-is-talking-about-isomorphic-universal-javascript-and-why-it-matters-38c07c87905 -universal jS
 #### What do you like about react?
 ..... 
 
