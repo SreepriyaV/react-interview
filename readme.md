@@ -238,6 +238,9 @@ The event handlers will be passed instances of SyntheticEvent(e), a cross-browse
 A synthetic event is just an object that looks like a normal browser event, but it takes care of some differences in how events work between different browers. It has most of the (useful) fields and methods that a normal browser event has, and (as mentioned by BTMPL) you can even access the 'real' browser event by looking at the nativeEvent field.
 
 onClick(e)={e.preventDefault()}
+
+#### SEO :
+https://www.youtube.com/watch?v=tqg3F-8jBec
 #### What do you like about react?
 ..... 
 
